@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class simplecalculator
+public class calculator
 {
     public static void main(String args[])
     {
@@ -14,17 +14,17 @@ public class simplecalculator
         switch(sym)
         {
             case"+":res=no1+no2;
-            System.out.println("Addition is:"+res);
-            break;
+                System.out.println("Addition is:"+res);
+                break;
             case"-":res=no1-no2;
-            System.out.println("Subtraction is :"+res);
-            break;
+                System.out.println("Subtraction is :"+res);
+                break;
             case"/":res=no1/no2;
-            System.out.println("Division is:"+res);
-            break;
+                System.out.println("Division is:"+res);
+                break;
             case"*":res=no1*no2;
-            System.out.println("Multiplication is:"+res);
-            break;
+                System.out.println("Multiplication is:"+res);
+                break;
             default:System.out.println("Invalid sysmbol ");
 
         }
